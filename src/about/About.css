@@ -1,0 +1,52 @@
+.about-container {
+    display: grid;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.about-title {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.about-title h2 {
+    color: #d90429;
+}
+
+.about-title h1 {
+    color: #edf2f4;
+}
+
+.about-col {
+    text-align: center;
+}
+
+.about-col h2 {
+    color: #d90429;
+}
+
+.about-col p {
+    color: #edf2f4;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.about-icon {
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 880px) {
+    .about-title {
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .about-container {
+        height: 190vh;
+    }
+}

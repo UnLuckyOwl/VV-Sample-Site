@@ -1,0 +1,37 @@
+#root {
+    background-color: #2b2d42;
+}
+
+.bg-nav {
+    background-color: #2b2d42;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.navbar-collapse {
+    margin-left: 50px;
+    justify-content: flex-end;
+    font-weight: 500;
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+    background-color: #8d99ae !important;
+}
+
+.nav-link {
+    margin-right: 40px;
+    color: #edf2f4 !important;
+}
+
+.nav-link:hover {
+    color: #d90429 !important;
+    transform: scale(1.1);
+}
+
+/* 
+* {
+    outline: 1px solid red;
+} */

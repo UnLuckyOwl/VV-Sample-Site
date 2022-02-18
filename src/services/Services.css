@@ -1,0 +1,60 @@
+.services-container {
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+
+.services-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.services-title {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.services-title h2 {
+    color: #d90429;
+}
+
+.services-title h1 {
+    color: #edf2f4;
+}
+
+.card-bg {
+    background-color: #edf2f4;
+}
+
+.row-title {
+    display: flex;
+    color: #d90429;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.card-title {
+    color: #d90429;
+}
+
+.card-text {
+    color: #2b2d42;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 880px) {
+    .services-title {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .row-title {
+        padding-top: 100px;
+    }
+}
